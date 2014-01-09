@@ -57,11 +57,20 @@
 .icon-twitter{
     color: #00A0D1;
 }
+.icon-twitter:hover{
+    color: #0075A6;
+}
 .icon-facebook{
     color: #3B5998;
 }
+.icon-facebook:hover{
+    color: #234180;
+}
 .icon-google-plus{
     color: #C4302B;
+}
+.icon-google-plus:hover{
+    color: #AF1B16;
 }
 /* Each icon is created by inserting the corret character into the 
    content of the :before pseudo element. Like a boss. */
@@ -103,14 +112,14 @@ body {
 }
 
 ::-moz-selection {
-    color: #222;
-    background: #D6EDFF;
+    color: #fff;
+    background: #369DBB;
     text-shadow: none;
 }
 
 ::selection {
-    color: #222;
-    background: #D6EDFF;
+    color: #fff;
+    background: #369DBB;
     text-shadow: none;
 }
 
@@ -123,7 +132,7 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.3rem;
     line-height: 1.2em;
     letter-spacing: -2px;
     text-indent: -3px;
@@ -176,7 +185,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #efefef;
+    border-top: 1px solid #D8D8D8;
     margin: 3.2em 0;
     padding: 0;
 }
@@ -184,7 +193,7 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.6em 0 1.6em -2.2em;
+    margin: 1.6em 0 1.6em 2.2em;
     padding: 0 0 0 1.6em;
     border-left: #4a4a4a 0.4em solid;
 }
@@ -240,8 +249,8 @@ code, tt {
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre;
-    border: 1px solid #E3EDF3;
-    background: #F7FAFB;
+    border: 1px solid #369DBB;
+    background: #fff;
     border-radius: 2px;
 }
 
@@ -249,14 +258,14 @@ pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 1.6em 0;
-    border: 1px solid #E3EDF3;
+    border: 1px solid #369DBB;
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: #fdfdfd;
     border-radius: 3px;
 }
 
@@ -327,6 +336,11 @@ table.plain tbody > tr:nth-child(odd) > td, table.plain tbody > tr:nth-child(odd
     background: transparent;
 }
 
+input, textarea{
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 0.4rem;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -578,11 +592,6 @@ table.plain tbody > tr:nth-child(odd) > td, table.plain tbody > tr:nth-child(odd
     text-decoration: none;
 }
 
-.post-footer .share a:hover {
-    color: #50585D;
-}
-
-
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
    ========================================================================== */
@@ -698,12 +707,6 @@ table.plain tbody > tr:nth-child(odd) > td, table.plain tbody > tr:nth-child(odd
     left: 9px;
     font-weight: bold;
     transition: color 0.5s ease;
-}
-
-/* Add a box shadow to on hover */
-.subscribe:hover {
-    box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
-    transition: box-shadow 0.25s;
 }
 
 .subscribe:hover:before {
