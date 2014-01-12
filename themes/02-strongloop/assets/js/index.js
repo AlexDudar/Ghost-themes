@@ -13,6 +13,10 @@
 
         //$("#blog-logo").prependTo("#site-head-content");
 
+        var postHeight = $(".content").height();
+        if (postHeight > 400){
+           $(".page-wrap").addClass('none');
+        }
     });
 
 }(jQuery));

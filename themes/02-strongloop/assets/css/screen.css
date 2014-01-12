@@ -111,6 +111,25 @@ body {
     color: #3A4145;
 }
 
+.home-template .page-wrap{
+    min-height: 100%;
+    margin-bottom: -22px;
+}
+
+.page-wrap{
+    min-height: 100%;
+    margin-bottom: -92px;
+}
+
+.page-wrap.none{
+    margin-bottom: -22px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
 ::-moz-selection {
     color: #fff;
     background: #369DBB;
@@ -377,7 +396,7 @@ input, textarea{
     position: relative;
     display: table;
     width: 100%;
-    height: 40%;
+    height: 300px;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
@@ -386,7 +405,7 @@ input, textarea{
 }
 
 #site-head.site-head-small{
-    height: 20%;
+    height: 180px;
     text-align: left;
 }
 
@@ -524,6 +543,9 @@ input, textarea{
     line-height: 1.5em;
 }
 
+.back{
+    margin-bottom: 15px;
+}
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
@@ -671,8 +693,8 @@ input, textarea{
 
 .site-footer {
     position: relative;
-    margin: 4rem 0 0 0;
-    padding: 2rem 0;
+    margin-top: 20px;
+    padding: 2.4rem 0;
     border-top: #D8D8D8 1px solid;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
@@ -680,6 +702,10 @@ input, textarea{
     color: #7D8A92;
     text-align: center;
     background: #eee;
+}
+
+.site-footer, .page-wrap:after {
+    height: 22px;
 }
 
 /* The subscribe icon on the footer */
