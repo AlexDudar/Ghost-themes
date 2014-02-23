@@ -2,6 +2,8 @@
 
 Strongloop theme for [Ghost](http://github.com/tryghost/ghost/).
 
+[Demo](http://strongloop.nodejitsu.com) 
+
 ## Copyright & License
 
 Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
