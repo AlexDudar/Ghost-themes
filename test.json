@@ -1,7 +1,7 @@
 {
   "posts": [
     { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    { "id": "2", "title": "another title", "views": 200 },
     { "id": "3", "title": "fksdofk sdofksd fi", "views": 100 },
     { "id": "4", "title": "fkdosfk sdofpk sdpfk sdfksdp ", "views": 200 }
   ],
